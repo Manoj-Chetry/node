@@ -1,3 +1,3 @@
-let data = require("./script.js");
+var oneLinerJoke = require('one-liner-joke');
 
-console.log(data);
+console.log(oneLinerJoke.getRandomJoke());
